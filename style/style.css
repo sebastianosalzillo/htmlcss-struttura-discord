@@ -30,7 +30,6 @@
 
 header {
     background-color: #e29898;
-    height: 60px;
     padding: 20px;
 
     /* debug */
@@ -41,7 +40,7 @@ header {
 
 /* main */
 
-main {
+.first {
     background-color: blue;
     height: 300px;
     padding: 20px;
@@ -61,4 +60,47 @@ main {
     border: 1px solid rgb(17, 6, 13);
 
 
+}
+.second , .four {
+    padding: 20px;
+    
+}
+
+.flex-container {
+display: flex;
+margin: 0 auto;
+height: 300px;
+width: 80%;
+
+
+}
+.flex-1 {
+    flex:1 ;
+    background-color: #25246d;
+
+
+}
+.flex-2 {
+    flex:2 ;
+    background-color: #bb7c33;
+
+
+}
+
+
+.third {
+    padding: 20px;
+    background-color: #525151;
+}
+
+.big-section {
+    padding: 20px;
+    background-color: #525151;
+}
+
+.x2 {
+    height: 600px;
+}
+.bg-green {
+    background-color: green;
 }
