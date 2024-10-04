@@ -1,6 +1,6 @@
 /* reset */
 * {
-    margin: 0 auto;
+  
     padding: 0;
     box-sizing: border-box;
 
@@ -36,7 +36,9 @@ header {
 
     border: 1px solid red;
 }
-
+ .login { 
+    text-align: right;
+ }
 
 /* main */
 
@@ -77,6 +79,7 @@ width: 80%;
 .flex-1 {
     flex:1 ;
     background-color: #25246d;
+    border: 1px solid red;
 
 
 }
@@ -104,3 +107,36 @@ width: 80%;
 .bg-green {
     background-color: green;
 }
+
+.collum {
+    padding: 20px;
+background-color: #7271b1;
+}
+
+
+.footer-content {
+    background-color: #25246d;
+    height: 60px;
+    max-width: 80%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    background-color: #6cc56c;
+  
+   padding: 20px;
+    margin: 0 auto ;
+
+}
+
+.footer-copyright,.footer-logo {
+
+    background-color: aquamarine;
+    padding: 5px;
+    border: 1px solid red;
+}
+
